@@ -5,8 +5,9 @@
  */
 
 $(document).ready(function (){
-    var mainDiv = $("#mainDiv");
-    mainDiv.text("Hey there what's up?");
+     $( "#menu" ).menu();
+   var mainDiv = $("#mainDiv");
+//    mainDiv.text("Hey there what's up?");
     var foop = {text: "hello", class: "color: red"};
     mainDiv.append(foop);
 });
